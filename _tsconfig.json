@@ -1,17 +1,18 @@
 {
-    "compilerOptions": {
-      "baseUrl": ".",
-      "target": "es2019",
-      "checkJs": true,
-      "allowJs": true,
-      "noEmit": true,
-      "typeRoots": [
-        "js-tooling/types"
-      ],
-      "paths": {
-        "@web/*": [
-          "community/addons/web/static/src/*"
-        ]
-      }
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "target": "es2019",
+    "checkJs": true,
+    "allowJs": true,
+    "noEmit": true,
+    "typeRoots": [
+      "js-tooling/"
+    ],
+    "paths": {
+      "@web/*": [
+        "community/addons/web/static/src/*"
+      ]
     }
   }
+}
