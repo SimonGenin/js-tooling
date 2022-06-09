@@ -1,0 +1,22 @@
+{
+  "name": "js-tooling",
+  "version": "1.0.0",
+  "description": "Set of tools to improve js developer experience in Odoo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SimonGenin/js-tooling.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SimonGenin/js-tooling/issues"
+  },
+  "homepage": "https://github.com/SimonGenin/js-tooling#readme",
+  "dependencies": {
+    "@odoo/owl": "^2.0.0-beta-9"
+  }
+}
